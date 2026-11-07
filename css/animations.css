@@ -1,0 +1,6 @@
+/* animations.css — GSAP handles JS motion; CSS provides non-JS fallback visibility */
+.reveal{will-change:opacity,transform}
+@keyframes pulse-wa{0%{box-shadow:0 0 0 0 rgba(37,211,102,.45)}70%{box-shadow:0 0 0 14px rgba(37,211,102,0)}100%{box-shadow:0 0 0 0 rgba(37,211,102,0)}}
+.wa-float{animation:pulse-wa 2.6s infinite}
+@keyframes shimmer{0%{background-position:-200% 0}100%{background-position:200% 0}}
+.gold-text{background:linear-gradient(90deg,#b8bcc3,#F2C76A,#b8bcc3);background-size:200% auto;-webkit-background-clip:text;background-clip:text;color:transparent;animation:shimmer 6s linear infinite}

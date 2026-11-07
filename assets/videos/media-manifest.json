@@ -1,0 +1,225 @@
+{
+  "count": 26,
+  "videos": [
+    {
+      "original": "video (1).mp4",
+      "new": "assets/videos/video-01.mp4",
+      "path": "C:/Users/admin/OneDrive/Desktop/mns/assets/videos/video-01.mp4",
+      "size_bytes": 2438143,
+      "duration_s": 11.219688,
+      "resolution": "see browser: videoWidth/Height available in gallery"
+    },
+    {
+      "original": "video (2).mp4",
+      "new": "assets/videos/video-02.mp4",
+      "path": "C:/Users/admin/OneDrive/Desktop/mns/assets/videos/video-02.mp4",
+      "size_bytes": 3475358,
+      "duration_s": 15.981667,
+      "resolution": "see browser: videoWidth/Height available in gallery"
+    },
+    {
+      "original": "video (3).mp4",
+      "new": "assets/videos/video-03.mp4",
+      "path": "C:/Users/admin/OneDrive/Desktop/mns/assets/videos/video-03.mp4",
+      "size_bytes": 11739425,
+      "duration_s": 54.007813,
+      "resolution": "see browser: videoWidth/Height available in gallery"
+    },
+    {
+      "original": "video (4).mp4",
+      "new": "assets/videos/video-04.mp4",
+      "path": "C:/Users/admin/OneDrive/Desktop/mns/assets/videos/video-04.mp4",
+      "size_bytes": 2937895,
+      "duration_s": 13.356771,
+      "resolution": "see browser: videoWidth/Height available in gallery"
+    },
+    {
+      "original": "video (5).mp4",
+      "new": "assets/videos/video-05.mp4",
+      "path": "C:/Users/admin/OneDrive/Desktop/mns/assets/videos/video-05.mp4",
+      "size_bytes": 2406217,
+      "duration_s": 11.057083,
+      "resolution": "see browser: videoWidth/Height available in gallery"
+    },
+    {
+      "original": "video (6).mp4",
+      "new": "assets/videos/video-06.mp4",
+      "path": "C:/Users/admin/OneDrive/Desktop/mns/assets/videos/video-06.mp4",
+      "size_bytes": 2816659,
+      "duration_s": 12.961875,
+      "resolution": "see browser: videoWidth/Height available in gallery"
+    },
+    {
+      "original": "video (7).mp4",
+      "new": "assets/videos/video-07.mp4",
+      "path": "C:/Users/admin/OneDrive/Desktop/mns/assets/videos/video-07.mp4",
+      "size_bytes": 2108007,
+      "duration_s": 14.233832,
+      "resolution": "see browser: videoWidth/Height available in gallery"
+    },
+    {
+      "original": "video (8).mp4",
+      "new": "assets/videos/video-08.mp4",
+      "path": "C:/Users/admin/OneDrive/Desktop/mns/assets/videos/video-08.mp4",
+      "size_bytes": 2712890,
+      "duration_s": 12.520521,
+      "resolution": "see browser: videoWidth/Height available in gallery"
+    },
+    {
+      "original": "video (9).mp4",
+      "new": "assets/videos/video-09.mp4",
+      "path": "C:/Users/admin/OneDrive/Desktop/mns/assets/videos/video-09.mp4",
+      "size_bytes": 2908113,
+      "duration_s": 13.426458,
+      "resolution": "see browser: videoWidth/Height available in gallery"
+    },
+    {
+      "original": "video (10).mp4",
+      "new": "assets/videos/video-10.mp4",
+      "path": "C:/Users/admin/OneDrive/Desktop/mns/assets/videos/video-10.mp4",
+      "size_bytes": 3147498,
+      "duration_s": 14.378854,
+      "resolution": "see browser: videoWidth/Height available in gallery"
+    },
+    {
+      "original": "video (11).mp4",
+      "new": "assets/videos/video-11.mp4",
+      "path": "C:/Users/admin/OneDrive/Desktop/mns/assets/videos/video-11.mp4",
+      "size_bytes": 2366480,
+      "duration_s": 10.499583,
+      "resolution": "see browser: videoWidth/Height available in gallery"
+    },
+    {
+      "original": "video (12).mp4",
+      "new": "assets/videos/video-12.mp4",
+      "path": "C:/Users/admin/OneDrive/Desktop/mns/assets/videos/video-12.mp4",
+      "size_bytes": 3890536,
+      "duration_s": 17.84,
+      "resolution": "see browser: videoWidth/Height available in gallery"
+    },
+    {
+      "original": "video (13).mp4",
+      "new": "assets/videos/video-13.mp4",
+      "path": "C:/Users/admin/OneDrive/Desktop/mns/assets/videos/video-13.mp4",
+      "size_bytes": 2872135,
+      "duration_s": 13.240625,
+      "resolution": "see browser: videoWidth/Height available in gallery"
+    },
+    {
+      "original": "video (14).mp4",
+      "new": "assets/videos/video-14.mp4",
+      "path": "C:/Users/admin/OneDrive/Desktop/mns/assets/videos/video-14.mp4",
+      "size_bytes": 3694156,
+      "duration_s": 13.885533,
+      "resolution": "see browser: videoWidth/Height available in gallery"
+    },
+    {
+      "original": "video (15).mp4",
+      "new": "assets/videos/video-15.mp4",
+      "path": "C:/Users/admin/OneDrive/Desktop/mns/assets/videos/video-15.mp4",
+      "size_bytes": 4767662,
+      "duration_s": 17.856145,
+      "resolution": "see browser: videoWidth/Height available in gallery"
+    },
+    {
+      "original": "video (16).mp4",
+      "new": "assets/videos/video-16.mp4",
+      "path": "C:/Users/admin/OneDrive/Desktop/mns/assets/videos/video-16.mp4",
+      "size_bytes": 7591388,
+      "duration_s": 11.702857,
+      "resolution": "see browser: videoWidth/Height available in gallery"
+    },
+    {
+      "original": "video (17).mp4",
+      "new": "assets/videos/video-17.mp4",
+      "path": "C:/Users/admin/OneDrive/Desktop/mns/assets/videos/video-17.mp4",
+      "size_bytes": 7521113,
+      "duration_s": 15.627029,
+      "resolution": "see browser: videoWidth/Height available in gallery"
+    },
+    {
+      "original": "video (18).mp4",
+      "new": "assets/videos/video-18.mp4",
+      "path": "C:/Users/admin/OneDrive/Desktop/mns/assets/videos/video-18.mp4",
+      "size_bytes": 5816239,
+      "duration_s": 23.243175,
+      "resolution": "see browser: videoWidth/Height available in gallery"
+    },
+    {
+      "original": "video (19).mp4",
+      "new": "assets/videos/video-19.mp4",
+      "path": "C:/Users/admin/OneDrive/Desktop/mns/assets/videos/video-19.mp4",
+      "size_bytes": 5023310,
+      "duration_s": 12.190476,
+      "resolution": "see browser: videoWidth/Height available in gallery"
+    },
+    {
+      "original": "video (20).mp4",
+      "new": "assets/videos/video-20.mp4",
+      "path": "C:/Users/admin/OneDrive/Desktop/mns/assets/videos/video-20.mp4",
+      "size_bytes": 1585607,
+      "duration_s": 18.018685,
+      "resolution": "see browser: videoWidth/Height available in gallery"
+    },
+    {
+      "original": "video (21).mp4",
+      "new": "assets/videos/video-21.mp4",
+      "path": "C:/Users/admin/OneDrive/Desktop/mns/assets/videos/video-21.mp4",
+      "size_bytes": 22013543,
+      "duration_s": 38.359365,
+      "resolution": "see browser: videoWidth/Height available in gallery"
+    },
+    {
+      "original": "video (22).mp4",
+      "new": "assets/videos/video-22.mp4",
+      "path": "C:/Users/admin/OneDrive/Desktop/mns/assets/videos/video-22.mp4",
+      "size_bytes": 1942787,
+      "duration_s": 8.777143,
+      "resolution": "see browser: videoWidth/Height available in gallery"
+    },
+    {
+      "original": "video (23).mp4",
+      "new": "assets/videos/video-23.mp4",
+      "path": "C:/Users/admin/OneDrive/Desktop/mns/assets/videos/video-23.mp4",
+      "size_bytes": 6808393,
+      "duration_s": 13.235374,
+      "resolution": "see browser: videoWidth/Height available in gallery"
+    },
+    {
+      "original": "video (24).mp4",
+      "new": "assets/videos/video-24.mp4",
+      "path": "C:/Users/admin/OneDrive/Desktop/mns/assets/videos/video-24.mp4",
+      "size_bytes": 10388155,
+      "duration_s": 23.661134,
+      "resolution": "see browser: videoWidth/Height available in gallery"
+    },
+    {
+      "original": "video (25).mp4",
+      "new": "assets/videos/video-25.mp4",
+      "path": "C:/Users/admin/OneDrive/Desktop/mns/assets/videos/video-25.mp4",
+      "size_bytes": 2823948,
+      "duration_s": 13.397914,
+      "resolution": "see browser: videoWidth/Height available in gallery"
+    },
+    {
+      "original": "video (26).mp4",
+      "new": "assets/videos/video-26.mp4",
+      "path": "C:/Users/admin/OneDrive/Desktop/mns/assets/videos/video-26.mp4",
+      "size_bytes": 4456170,
+      "duration_s": 27.167347,
+      "resolution": "see browser: videoWidth/Height available in gallery"
+    },
+    {
+      "original": "hero video banner desktop.mp4",
+      "new": "assets/videos/hero-desktop.mp4",
+      "path": "C:/Users/admin/OneDrive/Desktop/mns/assets/videos/hero-desktop.mp4",
+      "size_bytes": 2164209
+    },
+    {
+      "original": "hero video banner mobail.mp4",
+      "new": "assets/videos/hero-mobile.mp4",
+      "path": "C:/Users/admin/OneDrive/Desktop/mns/assets/videos/hero-mobile.mp4",
+      "size_bytes": 2159842
+    }
+  ]
+}
