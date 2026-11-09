@@ -35,6 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
   // Video filtering
   const vcards = Array.from(document.querySelectorAll(".vid-card"));
+  const vids = Array.from(document.querySelectorAll(".vid-card video"));
   if (vcards.length) {
     document.querySelectorAll(".filters[data-video-filters] button").forEach(function (b) {
       b.addEventListener("click", function () {
@@ -43,13 +44,52 @@ document.addEventListener("DOMContentLoaded", function () {
         const f = b.dataset.vfilter;
         let n = 0;
         vcards.forEach(function (it) {
+          const v = it.querySelector("video");
           const show = f === "all" || it.dataset.vcat === f || (it.dataset.vcat||"").split(" ").includes(f);
           it.style.display = show ? "" : "none";
+          if (!show && v && !v.paused) v.pause();
           if (show) n++;
         });
         const c = document.getElementById("videoCount");
         if (c) c.textContent = n + " PROJECT VIDEOS VISIBLE · 26 TOTAL";
       });
     });
+    vcards.forEach(function (card) {
+      const body = card.querySelector(".vid-body");
+      const title = body ? body.querySelector("b") : null;
+      const text = title ? title.textContent : "MNS Steel Fabrication project";
+      if (body && !body.querySelector(".vid-wa")) {
+        const a = document.createElement("a");
+        a.className = "btn btn-wa vid-wa";
+        a.href = "#";
+        a.setAttribute("data-wa", "");
+        a.setAttribute("data-wa-service", "General");
+        a.setAttribute("data-wa-message", "Hello MNS Steel Fabrication, I viewed \"" + text + "\" in your project videos and would like to enquire about a similar fabrication project.");
+        a.textContent = "Enquire on WhatsApp";
+        body.appendChild(a);
+      }
+      if (body && body.children.length > 1) body.children[1].classList.add("vid-cat");
+    });
+    vids.forEach(function (v) {
+      v.addEventListener("loadedmetadata", function () {
+        const media = v.closest(".vid-media");
+        if (!media || !v.videoWidth) return;
+        const portrait = v.videoHeight >= v.videoWidth;
+        media.classList.toggle("is-portrait", portrait);
+        media.classList.toggle("is-landscape", !portrait);
+      });
+      v.addEventListener("play", function () { vids.forEach(function (o) { if (o !== v && !o.paused) o.pause(); }); if (v.preload === "none") v.preload = "metadata"; });
+      v.addEventListener("error", function () { v.closest(".vid-card")?.classList.add("vid-missing"); }, true);
+    });
+    if ("IntersectionObserver" in window) {
+      const near = new IntersectionObserver(function (entries) {
+        entries.forEach(function (en) {
+          const v = en.target;
+          if (en.isIntersecting) { if (v.preload === "none") v.preload = "metadata"; }
+          else if (!v.paused) v.pause();
+        });
+      }, { rootMargin: "400px 0px" });
+      vids.forEach(function (v) { near.observe(v); });
+    }
   }
 });
