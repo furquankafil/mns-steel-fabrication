@@ -81,6 +81,7 @@ document.addEventListener("DOMContentLoaded", function () {
       v.addEventListener("play", function () { vids.forEach(function (o) { if (o !== v && !o.paused) o.pause(); }); if (v.preload === "none") v.preload = "metadata"; });
       v.addEventListener("error", function () { v.closest(".vid-card")?.classList.add("vid-missing"); }, true);
     });
+    vids.forEach(function (v) { if (!v.getAttribute("preload") || v.preload === "none") v.preload = "metadata"; });
     if ("IntersectionObserver" in window) {
       const near = new IntersectionObserver(function (entries) {
         entries.forEach(function (en) {
