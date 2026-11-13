@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
           if (show) n++;
         });
         const c = document.getElementById("videoCount");
-        if (c) c.textContent = n + " PROJECT VIDEOS VISIBLE · 26 TOTAL";
+        if (c) c.textContent = n + " PROJECT VIDEOS VISIBLE";
       });
     });
     vcards.forEach(function (card) {

@@ -65,14 +65,14 @@ document.addEventListener("DOMContentLoaded", function () {
       if (firstBad) firstBad.focus();
       return;
     }
-    setLoading(true);
-    var controller = new AbortController();
-    var timer = setTimeout(function () { controller.abort(); }, TIMEOUT_MS);
     var formData = new FormData(form);
     var visitorEmail = (form.elements.email && form.elements.email.value || "").trim();
     if (visitorEmail && !formData.get("replyto")) formData.append("replyto", visitorEmail);
     formData.set("subject", "New Website Enquiry — MNS Steel Fabrication");
     formData.set("access_key", "6a614dee-fe15-42b6-aa8e-0c50af958f6b");
+    setLoading(true);
+    var controller = new AbortController();
+    var timer = setTimeout(function () { controller.abort(); }, TIMEOUT_MS);
     fetch("https://api.web3forms.com/submit", {
       method: "POST",
       body: formData,
