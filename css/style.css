@@ -429,7 +429,6 @@ body{padding-bottom:66px}.wa-float,.call-float{display:none}
 .photo-hero .ph-bg{object-position:center 35%}
 .photo-hero .ph-veil{background:linear-gradient(180deg,rgba(252,251,248,.95),rgba(252,251,248,.72))}
 .photo-hero .ph-panel{max-width:none;padding:24px 20px}
-.showcase-grid{grid-template-columns:1fr}
 .struct-visual{grid-template-columns:1fr}
 .struct-item.wide{grid-column:span 1}
 .why-split .why-grid{grid-template-columns:1fr}
@@ -487,3 +486,6 @@ body{padding-bottom:66px}.wa-float,.call-float{display:none}
 .vid-card video:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
 .showcase-sub{font-family:var(--fS);font-weight:800;letter-spacing:.16em;text-transform:uppercase;font-size:clamp(13px,1.5vw,16px);color:var(--ink);margin:14px auto 4px;max-width:720px}
 .showcase-sub em{color:var(--gold3);font-style:italic;letter-spacing:.14em}
+
+/* Home project showcase: 3 cols desktop / 2 cols tablet / 1 col phone (declared last to win cascade) */
+@media(max-width:767px){.showcase-grid{grid-template-columns:1fr}}
